@@ -8,7 +8,7 @@ else:
 
 setuptools.setup(
   name="mecab-cygwin32",
-  version="0.996.1",
+  version="0.996.2",
   packages=setuptools.find_packages(),
   data_files=[
     ("local/bin",glob.glob("bin/*")),
