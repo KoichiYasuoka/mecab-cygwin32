@@ -14,6 +14,7 @@ setuptools.setup(
     ("local/bin",glob.glob("bin/*")),
     ("local/libexec/mecab",glob.glob("libexec/mecab/*")),
     ("local/lib",glob.glob("lib/*.*")),
+    ("local/etc",glob.glob("etc/*")),
     ("local/include",glob.glob("include/*")),
     ("local/share/man/man1",glob.glob("share/man/man1/*")),
     ("local/lib/mecab/dic/ipadic",glob.glob("lib/mecab/dic/ipadic/*"))
