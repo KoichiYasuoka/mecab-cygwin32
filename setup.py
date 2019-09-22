@@ -1,5 +1,10 @@
 import setuptools
 import glob
+import os
+if os.uname().sysname.startswith("CYGWIN") and os.uname().machine=="i686":
+  pass
+else:
+  raise OSError("mecab-cygwin32 only for 32-bit Cygwin")
 
 setuptools.setup(
   name="mecab-cygwin32",
