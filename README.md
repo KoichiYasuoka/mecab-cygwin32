@@ -12,7 +12,7 @@ Only for 32-bit Cygwin with `git`:
 
 ```sh
 cd /tmp
-git clone https://github.com/KoichiYasuoka/mecab-cygwin32.git
+git clone --depth=1 https://github.com/KoichiYasuoka/mecab-cygwin32
 cd mecab-cygwin32
 sh -x ./install.sh /usr/local
 ```
