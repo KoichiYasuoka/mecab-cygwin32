@@ -8,7 +8,7 @@ See [MeCab page](http://taku910.github.io/mecab/).
 
 ## Installation
 
-Only for 32-bit Cygwin with `git`:
+Only for 32-bit Cygwin with `git` and `gcc-g++`:
 
 ```sh
 cd /tmp
