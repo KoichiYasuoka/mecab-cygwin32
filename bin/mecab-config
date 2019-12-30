@@ -87,7 +87,7 @@ while test $# -gt 0; do
        	;;
 
     --libs)
-       	echo -L${exec_prefix}/lib -lmecab -lstdc++
+       	echo -L${exec_prefix}/lib -lmecab -lstdc++ -liconv
        	;;
 
     --dicdir)
@@ -103,7 +103,7 @@ while test $# -gt 0; do
 	;;
 	
     --libs-only-l)
-        echo -lmecab -lstdc++ | sed s/-l//g;
+        echo -lmecab -lstdc++ -liconv | sed s/-l//g;
 	;;
 
     --libexecdir)
